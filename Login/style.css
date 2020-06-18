@@ -1,0 +1,86 @@
+/* Html */
+html {
+	height: 100%;
+}
+
+/* Body */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial', sans-serif;
+	background: linear-gradient(#0f141d, #cbdbec);	
+}
+
+/* Box Center */
+.login-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	padding: 40px;
+	transform: translate(-50%, -50%); 
+	background: rgba(0,0,0,.5);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+	border-radius: 15px;
+}
+
+/* Login center */
+.login-box h2 {
+	color: #ffffff;
+	text-align: center;
+}
+
+/* User and Pass center */
+.login-box .user-box {
+	position: relative;
+}
+
+/* Login Box and User Box */
+.login-box .user-box input {
+	width: 100%;
+	padding:15px 0;
+	font-size: 15px;
+	color: #F1EEE6;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #F1EEE6;
+	outline: none;
+	background: transparent;
+}
+
+/* Position , Box , Users */
+.user-box label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #F1EEE6;	
+}
+
+/* Box , Text , structure  */
+.login-box .user-box input:focus ~ label, .login-box .user-box input:valid ~ label {
+	top: -20px; 
+	left: 0px; 
+	color: #ffffff;
+	font-size: 12px;
+}
+
+/* Text Entrar */
+.login-box form a {
+	position: relative;
+	display: inline-block;
+	padding: 10px 20px;
+	color: #ffffff;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .8s;
+	margin-top: 50px;
+	letter-spacing: 3px;
+}
+
+
+
+
