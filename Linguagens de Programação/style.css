@@ -1,0 +1,81 @@
+/* Body */ 
+body {
+    margin: 50px 0;
+    background: linear-gradient(#0f141d, #cbdbec);	
+  }
+
+/* Content, Organization */ 
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+  }
+
+/* Title, hover */  
+h1 {
+    text-align:center;
+    font-family:Didot, Garamond, serif;
+    font-weight:800;
+    font-size: 42px;
+    color:#faaf19;
+    text-transform:uppercase;
+    line-height:1.2em;
+    }   
+
+  h1:hover{
+    transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    transition:all 0.6s ease;
+}
+
+/* Description */  
+h2{
+  font-family: monospace;
+    color: #000000;
+  }
+
+span {
+    color: black;
+  }
+
+
+
+/* Circle , hover */  
+.circle {
+    float: left;
+    width: 150px;
+    margin: 20px;
+    cursor: pointer;
+    font-size: 40px;
+    min-height: 150px;
+    text-align: center;
+    line-height: 150px;
+    background-color: rgb(215, 220, 223);
+    border-radius: 50%;
+    }
+    .circle:hover{
+      transform:scale(1.1);
+      -webkit-transform:scale(1.1);
+      -moz-transform:scale(1.1);
+      -ms-transform:scale(1.1);
+      transition:all 0.6s ease;
+  }
+  
+
+/* left over */
+.circle:hover {
+    background-color: #e0e0e0;
+  }
+   
+/* Color (© GABRIEL MEDEIROS) */
+a {
+    color: black;
+  }
+
+/* Footer */ 
+footer {
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+  }
