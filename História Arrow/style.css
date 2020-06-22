@@ -1,0 +1,68 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  background: linear-gradient(#0c3119, #31923c);
+  background-attachment: fixed;
+  color: #fff;
+  text-align: center;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  font-size: 4em;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+section {
+  width: 500px;
+  margin: 0 auto;
+}
+  
+h1 {
+    font-size: 1.8em;
+    font-weight: 300;
+    text-transform: uppercase;
+} 
+    
+p {
+    font-weight: 300;
+}
+
+.perfil {
+  margin: 0 auto;
+  width: 500px;
+}   
+  
+.path {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    background-color: #000;
+    background: url(https://static1.purebreak.com.br/articles/5/51/01/5/@/220143-em-arrow-oliver-vai-aparecer-sem-unif-diapo-2.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    
+}
+
+footer {
+  width: 500px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
