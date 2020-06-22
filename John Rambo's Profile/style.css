@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(219, 216, 216);   
+}
+
+.container {
+  background-color: #f4f4f4;
+  width: 400px;
+  margin: 30px auto;
+  box-shadow: 1px 1px 10px 1px;
+  transition-duration: 0.4s;
+  border-radius: 20px;
+ 
+}
+.retrato {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 20px  
+}
+
+.conteudo {
+  width: 85%;
+  margin: 35px auto;
+}
+
+.conteudo h3{
+ color: #000000;
+  font-size:1.8em;
+  font-weight: 300;
+   margin-bottom: 0;
+   text-transform: uppercase;
+}
+
+.container:hover{
+    background-color: #dddada;
+    width: 400px;
+    margin: 5px auto;
+    box-shadow: 1px 1px 11px 1px  
+}
+
+p{
+    font-family: monospace;
+}
+
+footer, a{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: transparent;
+    color: black;
+}
+
+  
